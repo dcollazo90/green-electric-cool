@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Green Electric Cool — Expert electrical, HVAC, and refrigeration services for homes and businesses across Puerto Rico. Offices in Ponce, Caguas, and Mayagüez.">
+<meta name="keywords" content="electricista Puerto Rico, HVAC Puerto Rico, refrigeración, electricista Ponce, electricista Caguas, electricista Mayaguez, electrical contractor PR">
+<meta property="og:title" content="Green Electric Cool | Electrical & HVAC — Puerto Rico">
+<meta property="og:description" content="Licensed electrical, HVAC, and refrigeration contractor serving all of Puerto Rico. 24/7 emergency service. Free estimates.">
+<meta property="og:type" content="website">
+<title>Green Electric Cool | Electrical & HVAC Services — Puerto Rico</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════
+     TOP BAR
+══════════════════════════════════════════════ -->
+<div class="topbar">
+  <div class="container topbar-inner">
+    <span data-en="📍 Serving Residential & Commercial Customers Island-Wide — Puerto Rico"
+          data-es="📍 Sirviendo a clientes residenciales y comerciales en toda la Isla — Puerto Rico">
+      📍 Serving Residential & Commercial Customers Island-Wide — Puerto Rico
+    </span>
+    <div class="topbar-links">
+      <span data-en="Licensed & Insured" data-es="Licenciado y Asegurado">Licensed & Insured</span>
+      <span>·</span>
+      <a href="tel:+17875285166">
+        ⚡ <span data-en="24/7 Emergency:" data-es="Emergencias 24/7:">24/7 Emergency:</span> (787) 528-5166
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     NAVIGATION
+══════════════════════════════════════════════ -->
+<nav>
+  <div class="container nav-inner">
+    <a href="#" class="logo">
+      <div class="logo-icon">⚡</div>
+      <div class="logo-text">
+        Green Electric <span>Cool</span>
+        <small data-en="Electrical · HVAC · Refrigeration"
+               data-es="Eléctrica · HVAC · Refrigeración">Electrical · HVAC · Refrigeration</small>
+      </div>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#services" data-en="Services"  data-es="Servicios">Services</a></li>
+      <li><a href="#why-us"   data-en="Why Us"     data-es="Por Qué Nosotros">Why Us</a></li>
+      <li><a href="#about"    data-en="About"      data-es="Nosotros">About</a></li>
+      <li><a href="#contact"  data-en="Contact"    data-es="Contacto">Contact</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <div class="lang-toggle">
+        <button class="lang-btn active" onclick="setLang('en')">EN</button>
+        <button class="lang-btn"        onclick="setLang('es')">ES</button>
+      </div>
+      <a href="tel:+17875285166" class="btn btn-primary">
+        📞 <span data-en="Call Now" data-es="Llama Ya">Call Now</span>
+      </a>
+      <a href="#contact" class="btn btn-electric"
+         data-en="Free Estimate" data-es="Presupuesto Gratis">Free Estimate</a>
+    </div>
+
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#services" data-en="Services"          data-es="Servicios">Services</a></li>
+      <li><a href="#why-us"   data-en="Why Us"             data-es="Por Qué Nosotros">Why Us</a></li>
+      <li><a href="#about"    data-en="About"              data-es="Nosotros">About</a></li>
+      <li><a href="#contact"  data-en="Contact"            data-es="Contacto">Contact</a></li>
+    </ul>
+    <div class="mobile-lang">
+      <div class="lang-toggle">
+        <button class="lang-btn active" onclick="setLang('en')">EN</button>
+        <button class="lang-btn"        onclick="setLang('es')">ES</button>
+      </div>
+    </div>
+    <div class="mobile-btns">
+      <a href="tel:+17875285166" class="btn btn-primary">📞 (787) 528-5166</a>
+      <a href="#contact" class="btn btn-electric"
+         data-en="Get Free Estimate" data-es="Obtén Presupuesto Gratis">Get Free Estimate</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ══════════════════════════════════════════════
+     HERO
+══════════════════════════════════════════════ -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="container">
+    <div class="hero-content">
+
+      <!-- Left copy -->
+      <div class="hero-left">
+        <div class="hero-badge"
+             data-en="Puerto Rico's Trusted Contractor"
+             data-es="El Contratista de Confianza de Puerto Rico">
+          Puerto Rico's Trusted Contractor
+        </div>
+
+        <h1>
+          <span data-en="Power."   data-es="Potencia.">Power.</span><br>
+          <span class="green-text" data-en="Comfort." data-es="Confort.">Comfort.</span><br>
+          <span class="accent"     data-en="Done Right." data-es="Hecho Bien.">Done Right.</span>
+        </h1>
+
+        <p class="hero-sub"
+           data-en="Expert electrical, HVAC, and refrigeration services for homes and businesses across Puerto Rico. Licensed technicians. Upfront pricing. Same-day service available."
+           data-es="Servicios expertos de electricidad, HVAC y refrigeración para hogares y negocios en toda Puerto Rico. Técnicos licenciados. Precios claros. Servicio el mismo día disponible.">
+          Expert electrical, HVAC, and refrigeration services for homes and businesses across Puerto Rico. Licensed technicians. Upfront pricing. Same-day service available.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-electric"
+             data-en="Get Free Estimate →" data-es="Presupuesto Gratis →">Get Free Estimate →</a>
+          <a href="tel:+17875285166" class="btn btn-outline">📞 (787) 528-5166</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <div class="stat-num">15+</div>
+            <div class="stat-label" data-en="Years Serving PR" data-es="Años Sirviendo PR">Years Serving PR</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">2K+</div>
+            <div class="stat-label" data-en="Jobs Completed" data-es="Trabajos Completados">Jobs Completed</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">100%</div>
+            <div class="stat-label" data-en="Licensed & Insured" data-es="Licenciado y Asegurado">Licensed & Insured</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right service cards -->
+      <div class="hero-right">
+        <div class="hero-card">
+          <div class="hero-card-icon">⚡</div>
+          <div class="hero-card-text">
+            <h3 data-en="Electrical Services"                      data-es="Servicios Eléctricos">Electrical Services</h3>
+            <p  data-en="Repairs, panel upgrades, wiring & lighting" data-es="Reparaciones, paneles, cableado e iluminación">Repairs, panel upgrades, wiring & lighting</p>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-card-icon">❄️</div>
+          <div class="hero-card-text">
+            <h3 data-en="HVAC Installation & Repair"              data-es="Instalación y Reparación HVAC">HVAC Installation & Repair</h3>
+            <p  data-en="AC systems, heat pumps, full HVAC installs" data-es="Sistemas de AC, bombas de calor, instalaciones completas">AC systems, heat pumps, full HVAC installs</p>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-card-icon">🧊</div>
+          <div class="hero-card-text">
+            <h3 data-en="Refrigeration Repair"                    data-es="Reparación de Refrigeración">Refrigeration Repair</h3>
+            <p  data-en="Commercial & residential refrigeration systems" data-es="Sistemas de refrigeración comerciales y residenciales">Commercial & residential refrigeration systems</p>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-card-icon">🚨</div>
+          <div class="hero-card-text">
+            <h3 data-en="24/7 Emergency Service"               data-es="Servicio de Emergencia 24/7">24/7 Emergency Service</h3>
+            <p  data-en="We respond fast when it matters most" data-es="Respondemos rápido cuando más se necesita">We respond fast when it matters most</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     EMERGENCY BANNER
+══════════════════════════════════════════════ -->
+<div class="emergency">
+  <div class="container emergency-inner">
+    <div class="emergency-text">
+      <div class="emergency-pulse"></div>
+      <div>
+        <strong data-en="🚨 24/7 Emergency Service Available"
+                data-es="🚨 Servicio de Emergencia 24/7 Disponible">🚨 24/7 Emergency Service Available</strong><br>
+        <span data-en="AC out in the Puerto Rico heat? Power failure? We're on call around the clock."
+              data-es="¿Sin AC en el calor de PR? ¿Fallo eléctrico? Estamos disponibles las 24 horas.">
+          AC out in the Puerto Rico heat? Power failure? We're on call around the clock.
+        </span>
+      </div>
+    </div>
+    <a href="tel:+17875285166"
+       data-en="Call Now: (787) 528-5166"
+       data-es="Llama Ya: (787) 528-5166">Call Now: (787) 528-5166</a>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SERVICES
+══════════════════════════════════════════════ -->
+<section class="section section-alt" id="services">
+  <div class="container">
+    <div class="fade-up">
+      <div class="tag" data-en="Our Services" data-es="Nuestros Servicios">Our Services</div>
+      <h2 data-en="Everything You Need,<br>One Trusted Team"
+          data-es="Todo lo que Necesitas,<br>Un Solo Equipo de Confianza">Everything You Need,<br>One Trusted Team</h2>
+      <p class="lead"
+         data-en="From a single outlet to a full commercial build-out, Green Electric Cool handles it all — on time, on budget, and done right the first time."
+         data-es="Desde un tomacorriente hasta un proyecto comercial completo, Green Electric Cool lo maneja todo — a tiempo, dentro del presupuesto, y bien hecho desde la primera vez.">
+        From a single outlet to a full commercial build-out, Green Electric Cool handles it all — on time, on budget, and done right the first time.
+      </p>
+    </div>
+
+    <div class="services-grid">
+      <!-- Electrical Repairs -->
+      <div class="service-card fade-up">
+        <span class="service-tag tag-elec" data-en="Electrical" data-es="Eléctrica">Electrical</span>
+        <span class="service-icon">🔧</span>
+        <h3 data-en="Electrical Repairs" data-es="Reparaciones Eléctricas">Electrical Repairs</h3>
+        <p data-en="Fast diagnosis and repair of faulty wiring, outlets, switches, breakers, and more. Residential and commercial."
+           data-es="Diagnóstico y reparación rápida de cableado defectuoso, tomacorrientes, interruptores, breakers y más.">
+          Fast diagnosis and repair of faulty wiring, outlets, switches, breakers, and more. Residential and commercial.
+        </p>
+      </div>
+      <!-- Wiring -->
+      <div class="service-card fade-up">
+        <span class="service-tag tag-elec" data-en="Electrical" data-es="Eléctrica">Electrical</span>
+        <span class="service-icon">🔌</span>
+        <h3 data-en="Wiring & Rewiring" data-es="Cableado y Recableado">Wiring & Rewiring</h3>
+        <p data-en="New construction wiring, full home rewiring, and dedicated circuit installation to code and beyond."
+           data-es="Cableado para nueva construcción, recableado completo de hogares e instalación de circuitos dedicados.">
+          New construction wiring, full home rewiring, and dedicated circuit installation to code and beyond.
+        </p>
+      </div>
+      <!-- Panel Upgrades -->
+      <div class="service-card fade-up">
+        <span class="service-tag tag-elec" data-en="Electrical" data-es="Eléctrica">Electrical</span>
+        <span class="service-icon">⚡</span>
+        <h3 data-en="Panel Upgrades" data-es="Actualización de Paneles">Panel Upgrades</h3>
+        <p data-en="Upgrade your electrical panel to handle modern demands safely — we handle 100A to 400A service upgrades."
+           data-es="Actualiza tu panel eléctrico para manejar las demandas modernas de forma segura — de 100A a 400A.">
+          Upgrade your electrical panel to handle modern demands safely — we handle 100A to 400A service upgrades.
+        </p>
+      </div>
+      <!-- Lighting -->
+      <div class="service-card fade-up">
+        <span class="service-tag tag-elec" data-en="Electrical" data-es="Eléctrica">Electrical</span>
+        <span class="service-icon">💡</span>
+        <h3 data-en="Lighting Installation" data-es="Instalación de Iluminación">Lighting Installation</h3>
+        <p data-en="Recessed lighting, LED retrofits, exterior security lighting, and complete commercial lighting systems."
+           data-es="Iluminación empotrada, retrofits LED, iluminación de seguridad exterior y sistemas de iluminación comercial.">
+          Recessed lighting, LED retrofits, exterior security lighting, and complete commercial lighting systems.
+        </p>
+      </div>
+      <!-- AC Repair -->
+      <div class="service-card fade-up">
+        <span class="service-tag tag-hvac">HVAC</span>
+        <span class="service-icon">🌡️</span>
+        <h3 data-en="AC Repair" data-es="Reparación de AC">AC Repair</h3>
+        <p data-en="Same-day AC diagnostics and repair. We service all major brands and keep Puerto Rico homes and businesses cool."
+           data-es="Diagnóstico y reparación de AC el mismo día. Serviciamos todas las marcas principales.">
+          Same-day AC diagnostics and repair. We service all major brands and keep Puerto Rico homes and businesses cool.
+        </p>
+      </div>
+      <!-- HVAC Installation -->
+      <div class="service-card fade-up">
+        <span class="service-tag tag-hvac">HVAC</span>
+        <span class="service-icon">❄️</span>
+        <h3 data-en="HVAC Installation" data-es="Instalación de HVAC">HVAC Installation</h3>
+        <p data-en="Full HVAC system design and installation for new construction, replacements, and additions."
+           data-es="Diseño e instalación completa de sistemas HVAC para nueva construcción, reemplazos y adiciones.">
+          Full HVAC system design and installation for new construction, replacements, and additions.
+        </p>
+      </div>
+      <!-- Refrigeration Repair -->
+      <div class="service-card fade-up">
+        <span class="service-tag tag-refrig" data-en="Refrigeration" data-es="Refrigeración">Refrigeration</span>
+        <span class="service-icon">🧊</span>
+        <h3 data-en="Refrigeration Repair" data-es="Reparación de Refrigeración">Refrigeration Repair</h3>
+        <p data-en="Walk-in coolers, freezers, commercial refrigeration units — we repair all systems, fast turnaround guaranteed."
+           data-es="Cuartos fríos, congeladores, unidades de refrigeración comercial — reparamos todos los sistemas.">
+          Walk-in coolers, freezers, commercial refrigeration units — we repair all systems, fast turnaround guaranteed.
+        </p>
+      </div>
+      <!-- Preventive Maintenance -->
+      <div class="service-card fade-up">
+        <span class="service-tag tag-hvac">HVAC</span>
+        <span class="service-icon">🛠️</span>
+        <h3 data-en="Preventive Maintenance" data-es="Mantenimiento Preventivo">Preventive Maintenance</h3>
+        <p data-en="Scheduled tune-ups and maintenance plans for HVAC and refrigeration systems to prevent costly breakdowns."
+           data-es="Planes de mantenimiento y ajustes programados para sistemas HVAC y de refrigeración.">
+          Scheduled tune-ups and maintenance plans for HVAC and refrigeration systems to prevent costly breakdowns.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     WHY US
+══════════════════════════════════════════════ -->
+<section class="section" id="why-us">
+  <div class="container">
+    <div class="why-grid">
+      <!-- Left: reasons -->
+      <div class="why-left fade-up">
+        <div class="tag" data-en="Why Choose Us" data-es="Por Qué Elegirnos">Why Choose Us</div>
+        <h2 data-en="Puerto Rico's Most Reliable<br>Electrical & HVAC Team"
+            data-es="El Equipo de Eléctrica & HVAC<br>Más Confiable de Puerto Rico">
+          Puerto Rico's Most Reliable<br>Electrical & HVAC Team
+        </h2>
+        <div class="why-points">
+          <div class="why-point">
+            <div class="why-point-icon">🏅</div>
+            <div class="why-point-text">
+              <h4 data-en="Licensed & Fully Insured" data-es="Licenciado y Totalmente Asegurado">Licensed & Fully Insured</h4>
+              <p data-en="All technicians are state-licensed and our work is backed by full liability insurance — your home is always protected."
+                 data-es="Todos los técnicos tienen licencia estatal y nuestro trabajo está respaldado por seguro de responsabilidad completa.">
+                All technicians are state-licensed and our work is backed by full liability insurance — your home is always protected.
+              </p>
+            </div>
+          </div>
+          <div class="why-point">
+            <div class="why-point-icon">⏱️</div>
+            <div class="why-point-text">
+              <h4 data-en="Fast Response Times" data-es="Tiempos de Respuesta Rápidos">Fast Response Times</h4>
+              <p data-en="We respect your time. Same-day and next-day appointments available, with 24/7 emergency response."
+                 data-es="Respetamos tu tiempo. Citas disponibles el mismo día o el siguiente, con respuesta de emergencia 24/7.">
+                We respect your time. Same-day and next-day appointments available, with 24/7 emergency response.
+              </p>
+            </div>
+          </div>
+          <div class="why-point">
+            <div class="why-point-icon">💲</div>
+            <div class="why-point-text">
+              <h4 data-en="Upfront, Honest Pricing" data-es="Precios Claros y Honestos">Upfront, Honest Pricing</h4>
+              <p data-en="No hidden fees. You get a clear estimate before any work begins — and we stick to it."
+                 data-es="Sin cargos ocultos. Recibes un presupuesto claro antes de comenzar cualquier trabajo — y lo cumplimos.">
+                No hidden fees. You get a clear estimate before any work begins — and we stick to it.
+              </p>
+            </div>
+          </div>
+          <div class="why-point">
+            <div class="why-point-icon">✅</div>
+            <div class="why-point-text">
+              <h4 data-en="Satisfaction Guaranteed" data-es="Satisfacción Garantizada">Satisfaction Guaranteed</h4>
+              <p data-en="We stand behind every job with a workmanship warranty. If it's not right, we make it right."
+                 data-es="Respaldamos cada trabajo con garantía de mano de obra. Si no está bien, lo corregimos.">
+                We stand behind every job with a workmanship warranty. If it's not right, we make it right.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: credentials card -->
+      <div class="why-visual fade-up">
+        <div class="why-visual-content">
+          <div class="cert-cards">
+            <div class="cert-card">
+              <div class="cert-card-icon">🏛️</div>
+              <div class="cert-card-text">
+                <h5 data-en="PR State Licensed"                    data-es="Licencia Estado Libre Asociado de PR">PR State Licensed</h5>
+                <p  data-en="Electrical & HVAC Contractor — Lic. #PR-2024-7731" data-es="Contratista Eléctrico & HVAC — Lic. #PR-2024-7731">Electrical & HVAC Contractor — Lic. #PR-2024-7731</p>
+              </div>
+            </div>
+            <div class="cert-card">
+              <div class="cert-card-icon">🛡️</div>
+              <div class="cert-card-text">
+                <h5 data-en="Fully Insured"                  data-es="Totalmente Asegurado">Fully Insured</h5>
+                <p  data-en="$2M General Liability + Workers' Compensation" data-es="$2M Responsabilidad General + Compensación a Trabajadores">$2M General Liability + Workers' Compensation</p>
+              </div>
+            </div>
+            <div class="cert-card">
+              <div class="cert-card-icon">🌡️</div>
+              <div class="cert-card-text">
+                <h5 data-en="EPA 608 Certified"               data-es="Certificado EPA 608">EPA 608 Certified</h5>
+                <p  data-en="All technicians certified for refrigerant handling" data-es="Todos los técnicos certificados para manejo de refrigerantes">All technicians certified for refrigerant handling</p>
+              </div>
+            </div>
+            <div class="cert-card">
+              <div class="cert-card-icon">⚡</div>
+              <div class="cert-card-text">
+                <h5 data-en="NEC & PR Code Compliant"         data-es="Cumple con NEC y Código de PR">NEC & PR Code Compliant</h5>
+                <p  data-en="All electrical work meets current code standards" data-es="Todo el trabajo eléctrico cumple con los estándares actuales">All electrical work meets current code standards</p>
+              </div>
+            </div>
+          </div>
+          <div class="rating-box">
+            <div class="stars">★★★★★</div>
+            <p data-en="4.9 / 5 — Based on 400+ Google Reviews"
+               data-es="4.9 / 5 — Basado en más de 400 reseñas en Google">
+              4.9 / 5 — Based on 400+ Google Reviews
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     FREE ESTIMATE CTA
+══════════════════════════════════════════════ -->
+<section class="estimate-cta">
+  <div class="container">
+    <div class="estimate-inner">
+      <div class="estimate-text fade-up">
+        <h2 data-en="Ready to Get Started?" data-es="¿Listo para Comenzar?">Ready to Get Started?</h2>
+        <p data-en="Schedule your free estimate today — no obligation, no pressure. Just honest answers from a team you can trust."
+           data-es="Agenda tu presupuesto gratis hoy — sin compromiso, sin presión. Solo respuestas honestas de un equipo de confianza.">
+          Schedule your free estimate today — no obligation, no pressure. Just honest answers from a team you can trust.
+        </p>
+      </div>
+      <div class="estimate-actions fade-up">
+        <a href="#contact" class="btn-white"
+           data-en="📋 Get Free Estimate" data-es="📋 Presupuesto Gratis">📋 Get Free Estimate</a>
+        <a href="tel:+17875285166" class="btn btn-outline">📞 (787) 528-5166</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     ABOUT
+══════════════════════════════════════════════ -->
+<section class="section section-alt" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <!-- Image placeholder — replace src with real photo -->
+      <div class="about-img-block fade-up">
+        <div class="about-img-placeholder">
+          <span>👷</span>
+          <p data-en="Your Team Photo Here" data-es="Foto de Tu Equipo Aquí">Your Team Photo Here</p>
+        </div>
+        <div class="about-badge">
+          <div class="num">15+</div>
+          <div class="label" data-en="Years Serving<br>Puerto Rico" data-es="Años Sirviendo<br>Puerto Rico">Years Serving<br>Puerto Rico</div>
+        </div>
+      </div>
+
+      <div class="about-right fade-up">
+        <div class="tag" data-en="About Us" data-es="Sobre Nosotros">About Us</div>
+        <h2 data-en="Local Expertise.<br>Real Results." data-es="Experiencia Local.<br>Resultados Reales.">Local Expertise.<br>Real Results.</h2>
+        <p class="lead"
+           data-en="Green Electric Cool was founded right here in Puerto Rico with a simple mission: deliver top-tier electrical, HVAC, and refrigeration services with the integrity and care that only a local business can provide."
+           data-es="Green Electric Cool fue fundada aquí mismo en Puerto Rico con una misión simple: ofrecer servicios de primera en electricidad, HVAC y refrigeración con la integridad y el cuidado que solo una empresa local puede brindar.">
+          Green Electric Cool was founded right here in Puerto Rico with a simple mission: deliver top-tier electrical, HVAC, and refrigeration services with the integrity and care that only a local business can provide.
+        </p>
+        <p class="lead"
+           data-en="We've built our reputation job by job, customer by customer. Whether you're a homeowner who needs a panel upgraded or a restaurant owner whose walk-in cooler went down at midnight — we show up, we fix it, and we do it right."
+           data-es="Hemos construido nuestra reputación trabajo a trabajo, cliente a cliente. Ya seas un dueño de hogar que necesita actualizar su panel o el dueño de un restaurante cuyo cuarto frío falló a medianoche — llegamos, lo arreglamos, y lo hacemos bien.">
+          We've built our reputation job by job, customer by customer. Whether you're a homeowner who needs a panel upgraded or a restaurant owner whose walk-in cooler went down at midnight — we show up, we fix it, and we do it right.
+        </p>
+        <div class="about-values">
+          <div class="value-pill" data-en="✅ Licensed & Insured"      data-es="✅ Licenciado y Asegurado">✅ Licensed & Insured</div>
+          <div class="value-pill" data-en="🏡 Residential Experts"     data-es="🏡 Expertos Residenciales">🏡 Residential Experts</div>
+          <div class="value-pill" data-en="🏢 Commercial Ready"        data-es="🏢 Listo para Comercios">🏢 Commercial Ready</div>
+          <div class="value-pill" data-en="🚨 24/7 Emergency"          data-es="🚨 Emergencias 24/7">🚨 24/7 Emergency</div>
+          <div class="value-pill" data-en="💰 Upfront Pricing"         data-es="💰 Precios Transparentes">💰 Upfront Pricing</div>
+          <div class="value-pill" data-en="⭐ 5-Star Rated"            data-es="⭐ Calificación 5 Estrellas">⭐ 5-Star Rated</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     CONTACT
+══════════════════════════════════════════════ -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="fade-up">
+      <div class="tag" data-en="Contact Us" data-es="Contáctanos">Contact Us</div>
+      <h2 data-en="Get Your Free Estimate" data-es="Obtén Tu Presupuesto Gratis">Get Your Free Estimate</h2>
+      <p class="lead"
+         data-en="Fill out the form and we'll get back to you within 2 hours during business hours. For emergencies, call us directly."
+         data-es="Llena el formulario y te contactaremos en menos de 2 horas en horario laboral. Para emergencias, llámanos directamente.">
+        Fill out the form and we'll get back to you within 2 hours during business hours. For emergencies, call us directly.
+      </p>
+    </div>
+
+    <div class="contact-grid">
+      <!-- Info column -->
+      <div class="contact-info fade-up">
+        <div class="contact-item">
+          <div class="contact-item-icon">📞</div>
+          <div>
+            <h4 data-en="Phone" data-es="Teléfono">Phone</h4>
+            <a href="tel:+17875285166">(787) 528-5166</a><br>
+            <p style="font-size:13px;margin-top:4px;" data-en="24/7 for emergencies" data-es="24/7 para emergencias">24/7 for emergencies</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">✉️</div>
+          <div>
+            <h4>Email</h4>
+            <a href="mailto:info@greenelectriccool.com">info@greenelectriccool.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">📍</div>
+          <div>
+            <h4 data-en="Service Area" data-es="Área de Servicio">Service Area</h4>
+            <p data-en="Island-wide — Puerto Rico<br>Offices in Ponce · Caguas · Mayagüez"
+               data-es="Toda la Isla — Puerto Rico<br>Sedes en Ponce · Caguas · Mayagüez">
+              Island-wide — Puerto Rico<br>Offices in Ponce · Caguas · Mayagüez
+            </p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">🕐</div>
+          <div>
+            <h4 data-en="Business Hours" data-es="Horario de Negocio">Business Hours</h4>
+            <p data-en="Mon–Fri: 7:00 AM – 6:00 PM<br>Sat: 8:00 AM – 4:00 PM<br>24/7 Emergency Line"
+               data-es="Lun–Vie: 7:00 AM – 6:00 PM<br>Sáb: 8:00 AM – 4:00 PM<br>Línea de Emergencias 24/7">
+              Mon–Fri: 7:00 AM – 6:00 PM<br>Sat: 8:00 AM – 4:00 PM<br>24/7 Emergency Line
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="contact-form-box fade-up">
+        <h3 data-en="Request a Free Estimate" data-es="Solicita un Presupuesto Gratis">Request a Free Estimate</h3>
+        <p class="form-sub"
+           data-en="We respond within 2 hours during business hours."
+           data-es="Respondemos en menos de 2 horas en horario laboral.">
+          We respond within 2 hours during business hours.
+        </p>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label data-en="First Name" data-es="Nombre">First Name</label>
+            <input type="text" placeholder="Juan">
+          </div>
+          <div class="form-group">
+            <label data-en="Last Name" data-es="Apellido">Last Name</label>
+            <input type="text" placeholder="Colón">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label data-en="Phone" data-es="Teléfono">Phone</label>
+            <input type="tel" placeholder="(787) 000-0000">
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="juan@email.com">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label data-en="Service Needed" data-es="Servicio Necesario">Service Needed</label>
+          <select id="service-select">
+            <option value="" data-en="Select a service..." data-es="Selecciona un servicio...">Select a service...</option>
+            <optgroup data-en-label="⚡ Electrical" data-es-label="⚡ Eléctrica" label="⚡ Electrical">
+              <option data-en="Electrical Repair"    data-es="Reparación Eléctrica">Electrical Repair</option>
+              <option data-en="Wiring / Rewiring"    data-es="Cableado / Recableado">Wiring / Rewiring</option>
+              <option data-en="Panel Upgrade"        data-es="Actualización de Panel">Panel Upgrade</option>
+              <option data-en="Lighting Installation" data-es="Instalación de Iluminación">Lighting Installation</option>
+            </optgroup>
+            <optgroup data-en-label="❄️ HVAC" data-es-label="❄️ HVAC" label="❄️ HVAC">
+              <option data-en="AC Repair"              data-es="Reparación de AC">AC Repair</option>
+              <option data-en="HVAC Installation"      data-es="Instalación de HVAC">HVAC Installation</option>
+              <option data-en="Preventive Maintenance" data-es="Mantenimiento Preventivo">Preventive Maintenance</option>
+            </optgroup>
+            <optgroup data-en-label="🧊 Refrigeration" data-es-label="🧊 Refrigeración" label="🧊 Refrigeration">
+              <option data-en="Refrigeration Repair" data-es="Reparación de Refrigeración">Refrigeration Repair</option>
+            </optgroup>
+            <option data-en="Other / Not Sure" data-es="Otro / No estoy seguro">Other / Not Sure</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label data-en="Property Type" data-es="Tipo de Propiedad">Property Type</label>
+          <select id="property-select">
+            <option data-en="Residential" data-es="Residencial">Residential</option>
+            <option data-en="Commercial"  data-es="Comercial">Commercial</option>
+            <option data-en="Industrial"  data-es="Industrial">Industrial</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label data-en="Tell Us More" data-es="Cuéntanos Más">Tell Us More</label>
+          <textarea id="textarea-msg"
+            placeholder="Briefly describe the issue or what you need..."
+            data-en-placeholder="Briefly describe the issue or what you need..."
+            data-es-placeholder="Describe brevemente el problema o lo que necesitas..."></textarea>
+        </div>
+
+        <button id="submit-btn"
+          class="btn btn-primary"
+          style="width:100%;justify-content:center;font-size:16px;padding:16px;"
+          onclick="handleSubmit(this)"
+          data-en="Submit Request →"
+          data-es="Enviar Solicitud →">
+          Submit Request →
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <!-- Brand -->
+      <div class="footer-brand">
+        <a href="#" class="footer-logo">
+          <div class="logo-icon">⚡</div>
+          <div class="logo-text">
+            Green Electric <span>Cool</span>
+            <small data-en="Electrical · HVAC · Refrigeration" data-es="Eléctrica · HVAC · Refrigeración">Electrical · HVAC · Refrigeration</small>
+          </div>
+        </a>
+        <p data-en="Serving residential and commercial customers island-wide across Puerto Rico with expert electrical, HVAC, and refrigeration services. Licensed, insured, and always available."
+           data-es="Sirviendo a clientes residenciales y comerciales en toda Puerto Rico con servicios expertos de electricidad, HVAC y refrigeración. Licenciados, asegurados y siempre disponibles.">
+          Serving residential and commercial customers island-wide across Puerto Rico with expert electrical, HVAC, and refrigeration services. Licensed, insured, and always available.
+        </p>
+        <div class="footer-socials">
+          <a href="#" class="social-btn" aria-label="Facebook">📘</a>
+          <a href="#" class="social-btn" aria-label="Instagram">📸</a>
+          <a href="#" class="social-btn" aria-label="Twitter">🐦</a>
+          <a href="#" class="social-btn" aria-label="LinkedIn">💼</a>
+        </div>
+      </div>
+
+      <!-- Services column -->
+      <div class="footer-col">
+        <h4 data-en="Services" data-es="Servicios">Services</h4>
+        <ul>
+          <li><a href="#services" data-en="Electrical Repairs"      data-es="Reparaciones Eléctricas">Electrical Repairs</a></li>
+          <li><a href="#services" data-en="Wiring & Rewiring"       data-es="Cableado y Recableado">Wiring & Rewiring</a></li>
+          <li><a href="#services" data-en="Panel Upgrades"          data-es="Actualización de Paneles">Panel Upgrades</a></li>
+          <li><a href="#services" data-en="Lighting Installation"   data-es="Instalación de Iluminación">Lighting Installation</a></li>
+          <li><a href="#services" data-en="AC Repair"               data-es="Reparación de AC">AC Repair</a></li>
+          <li><a href="#services" data-en="HVAC Installation"       data-es="Instalación de HVAC">HVAC Installation</a></li>
+          <li><a href="#services" data-en="Refrigeration Repair"    data-es="Reparación de Refrigeración">Refrigeration Repair</a></li>
+          <li><a href="#services" data-en="Preventive Maintenance"  data-es="Mantenimiento Preventivo">Preventive Maintenance</a></li>
+        </ul>
+      </div>
+
+      <!-- Company column -->
+      <div class="footer-col">
+        <h4 data-en="Company" data-es="Empresa">Company</h4>
+        <ul>
+          <li><a href="#about"   data-en="About Us"       data-es="Sobre Nosotros">About Us</a></li>
+          <li><a href="#why-us"  data-en="Why Choose Us"  data-es="Por Qué Elegirnos">Why Choose Us</a></li>
+          <li><a href="#contact" data-en="Contact"        data-es="Contacto">Contact</a></li>
+          <li><a href="#contact" data-en="Free Estimate"  data-es="Presupuesto Gratis">Free Estimate</a></li>
+          <li><a href="tel:+17875285166" data-en="Emergency Service" data-es="Servicio de Emergencia">Emergency Service</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact column -->
+      <div class="footer-col">
+        <h4 data-en="Contact" data-es="Contacto">Contact</h4>
+        <ul>
+          <li><a href="tel:+17875285166">📞 (787) 528-5166</a></li>
+          <li><a href="mailto:info@greenelectriccool.com">✉️ info@greenelectriccool.com</a></li>
+          <li><a href="#">📍 Ponce · Caguas · Mayagüez, PR</a></li>
+          <li><a href="#" data-en="🕐 Mon–Sat, 7AM–6PM" data-es="🕐 Lun–Sáb, 7AM–6PM">🕐 Mon–Sat, 7AM–6PM</a></li>
+          <li><a href="tel:+17875285166" data-en="🚨 24/7 Emergency" data-es="🚨 Emergencias 24/7">🚨 24/7 Emergency</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span data-en="© 2025 Green Electric Cool LLC. All rights reserved. PR License #PR-2024-7731"
+            data-es="© 2025 Green Electric Cool LLC. Todos los derechos reservados. Lic. PR #PR-2024-7731">
+        © 2025 Green Electric Cool LLC. All rights reserved. PR License #PR-2024-7731
+      </span>
+      <span>
+        <a href="#" data-en="Privacy Policy" data-es="Política de Privacidad">Privacy Policy</a> ·
+        <a href="#" data-en="Terms"           data-es="Términos">Terms</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
